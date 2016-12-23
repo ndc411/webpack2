@@ -1,14 +1,13 @@
 body {
     background-color: #548aff;
     text-align: center;
-    font-size: 40px;
 }
 .content-wrap {
     min-width: 1080px;
     margin: auto;
 }
 .menu {
-    min-width: 1080px;
+    min-width: 1200px;
     margin: 150px auto 40px;
 }
 .menu ul {

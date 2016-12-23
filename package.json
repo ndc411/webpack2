@@ -4,7 +4,6 @@
   "description": "热替换 页面切换",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
     "start": "webpack && webpack-dev-server --hot --inline"
   },
   "author": "xiaojiang",
@@ -15,6 +14,7 @@
     "file-loader": "^0.9.0",
     "gulp": "^3.9.1",
     "gulp-file-include": "^1.0.0",
+    "html-loader": "^0.4.4",
     "style-loader": "^0.13.1",
     "url-loader": "^0.5.7",
     "webpack": "^1.13.3",

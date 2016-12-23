@@ -27,7 +27,8 @@ module.exports = {
         watchOptions: {
             aggregateTimeout: 300
         },
-        port: '8088'
+        port: '8088',
+        open: true //打开默认浏览器
     },
     module: {
         loaders: [

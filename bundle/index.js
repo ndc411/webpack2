@@ -11,14 +11,14 @@ webpackJsonp([0,1],[
 	var CURRENT_PATH = path.join(__dirname); // 获取到当前目录
 	    views_path = path.join(__dirname + '/src/'+'views/');
 	var content = __webpack_require__(3);
-	// alert(content.name);
+	//alert(content.name);
 	//document.write(content.content);
 	// alert(cwd+"------"+CURRENT_PATH);
 	var $ = __webpack_require__(4);
 	__webpack_require__(5);
 	$('body').prepend('<div class="menu">' + '<ul>' +
 	    '<li><a id="home" href='+__dirname+'index.html>校园首页</a></li>' +
-	    '<li><a id="media" href=' + views_path + 'media/media.html>学校动态</a></li>' +
+	    '<li><a id="media" href=' + views_path + 'media/media.html>校园动态</a></li>' +
 	    '<li><a id="activities" href=' + views_path + 'activities/activities.html>精彩活动</a></li>' +
 	    '<li><a id="about" href=' + views_path + 'about/about.html>校园简介</a></li>' +
 	    '<li><a id="about" href=' + views_path + 'about/about.html>教师风采</a></li>' +
@@ -452,7 +452,7 @@ webpackJsonp([0,1],[
 
 	var content = '<p class="para">`1`     It works from content! 显然是可以在输出中加上html标签！</p>';
 	module.exports.content = content;
-	module.exports.name = 'xiao jiang';
+	module.exports.name = 'xiao jiang!!!';
 	module.exports.login = function () {
 	    return content;
 	};
@@ -10721,7 +10721,7 @@ webpackJsonp([0,1],[
 
 
 	// module
-	exports.push([module.id, "body {\r\n    background-color: #548aff;\r\n    text-align: center;\r\n    font-size: 40px;\r\n}\r\n.content-wrap {\r\n    min-width: 1080px;\r\n    margin: auto;\r\n}\r\n.menu {\r\n    min-width: 1080px;\r\n    margin: 150px auto 40px;\r\n}\r\n.menu ul {\r\n    padding: inherit;\r\n}\r\n.menu ul li {\r\n     list-style: none;\r\n     display: inline-block;\r\n     margin: 10px 30px;\r\n }\r\n.menu ul li a:hover,a:active{\r\n    padding: 8px 15px;\r\n    font-size: 18px;\r\n    background: #73ecff;\r\n    border-radius: 5px;\r\n}\r\n.active {\r\n    border-radius: 5px;\r\n    background: #73ecff;\r\n}\r\n.menu ul li a:link,a:visited{\r\n    padding: 8px 15px;\r\n    font-size: 18px;\r\n    color: #e6ffec;\r\n    text-decoration: none;\r\n}\r\n.test-area {\r\n    background-color: #ffc039;\r\n    color: #d8ffff;\r\n    font-size: 4em;\r\n    width: 50%;\r\n    margin: auto;\r\n}\r\n.para {\r\n    font-size: 1em;\r\n}\r\n.img-container {\r\n    margin: 5px auto;\r\n}\r\n.img-11 {\r\n    height: 500px;\r\n    width: 350px;\r\n    border-radius: 100%;\r\n    border: 5px chartreuse solid;\r\n    background: url(" + __webpack_require__(8) + ") no-repeat #9b5bd2;\r\n    background-size: cover;\r\n    display: inline-block;\r\n}\r\n.img-content {\r\n    width: 360px;\r\n    height: 500px;\r\n    border-radius: 100%;\r\n    border: 5px #ff5075 solid;\r\n    display: inline-block;\r\n}", ""]);
+	exports.push([module.id, "body {\r\n    background-color: #548aff;\r\n    text-align: center;\r\n}\r\n.content-wrap {\r\n    min-width: 1080px;\r\n    margin: auto;\r\n}\r\n.menu {\r\n    min-width: 1200px;\r\n    margin: 150px auto 40px;\r\n}\r\n.menu ul {\r\n    padding: inherit;\r\n}\r\n.menu ul li {\r\n     list-style: none;\r\n     display: inline-block;\r\n     margin: 10px 30px;\r\n }\r\n.menu ul li a:hover,a:active{\r\n    padding: 8px 15px;\r\n    font-size: 18px;\r\n    background: #73ecff;\r\n    border-radius: 5px;\r\n}\r\n.active {\r\n    border-radius: 5px;\r\n    background: #73ecff;\r\n}\r\n.menu ul li a:link,a:visited{\r\n    padding: 8px 15px;\r\n    font-size: 18px;\r\n    color: #e6ffec;\r\n    text-decoration: none;\r\n}\r\n.test-area {\r\n    background-color: #ffc039;\r\n    color: #d8ffff;\r\n    font-size: 4em;\r\n    width: 50%;\r\n    margin: auto;\r\n}\r\n.para {\r\n    font-size: 1em;\r\n}\r\n.img-container {\r\n    margin: 5px auto;\r\n}\r\n.img-11 {\r\n    height: 500px;\r\n    width: 350px;\r\n    border-radius: 100%;\r\n    border: 5px chartreuse solid;\r\n    background: url(" + __webpack_require__(8) + ") no-repeat #9b5bd2;\r\n    background-size: cover;\r\n    display: inline-block;\r\n}\r\n.img-content {\r\n    width: 360px;\r\n    height: 500px;\r\n    border-radius: 100%;\r\n    border: 5px #ff5075 solid;\r\n    display: inline-block;\r\n}", ""]);
 
 	// exports
 
